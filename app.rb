@@ -5,10 +5,10 @@ require './student.rb'
 module StudentSite
   class App < Sinatra::Base
     get '/' do
-      "hello world!"
+      "hello jack!"
     end
 
-    get '/hello-world' do 
+    get '/hello' do 
       erb :hello
     end
 
